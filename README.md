@@ -1,10 +1,10 @@
 # Zombie Eligibilty 
-An example of a Python solution for duplicate data.
+An example of a Python solution for removing duplicate data from a Relatioal Database.
 
-The Zombie Eligibility Problem was discovered when we migrated from a third party data pipeline to a custom internal pipeline. We had individuals still enrolled on the third-party pipeline (called HCRM) and were also enrolled in our custom Python / Ruby pipeline. We needed to disenroll the individuals on the HCRM data to reduce eligibility counts and costs. This is important as we bill clients based on population count. 
+The "Zombie Eligibility Problem" was discovered when we tranitioned away from obtaining normalized data from a third party data vender, named HCRM, as we implemented custom Python mapping scripts.  Individuals are still enrolled in HCRM data source while also showing enrollment in our direct data source, causing inflated monthly elibility counts that went undiscovered by our data quality reporting.  We need to disenroll the individuals on the HCRM data to reduce eligibility counts and costs. This is important to maintain data integrity and build trust with our clients.
 
 ### zombie_eligibility.py
-This is the Python solution with IP 
+This is the Python solution with IP
 
 ### Minerich_ZombieElig.pdf
 This is the slide deck in pdf format
